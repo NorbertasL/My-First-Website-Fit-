@@ -1,0 +1,54 @@
+.crossword table,
+.crossword td
+{
+border: 1px solid black;
+border-collapse: collapse;
+}
+.crossword td
+{
+width: 3em;
+height: 3em;
+vertical-align: top;
+background-color: white;
+}
+.crossword .black
+{
+background-color: black;
+
+}
+
+
+/* Sudoku puzzle styling */
+
+.sudoku table{
+	border: 3px solid;
+	border-collapse: collapse; /* The border-collapse property sets whether table borders should collapse into a single border or be separated as in standard HTML. */
+	
+	
+}
+.sudoku td {
+	width: 6vh;
+	height: 6vh;
+	background-color: white;
+	border: 1px solid black;
+	
+
+}
+.sudoku td:nth-child(3n) {
+  	border-right: 3px solid;
+	border-color: black;
+}
+.sudoku tr:nth-child(3n) {
+	border-bottom:3px solid;
+	border-color: black;
+}
+
+.sudoku td {
+	text-align: center;
+	font-size: 30px;
+			
+}
+.red_text { /* Used for answer numbers */
+	color:red;
+}
+
